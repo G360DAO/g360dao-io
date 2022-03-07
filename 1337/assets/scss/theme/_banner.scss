@@ -1,0 +1,51 @@
+/* banner area style
+============================================================================================ */
+
+.banner-area {
+    position: relative;
+    background: url(../img/bg/banner-bg.png) center no-repeat;
+    background-size: cover;
+    padding: 170px 0 100px;
+    z-index: 1;
+    overflow: hidden;
+    .banner-thumb {
+        padding-left: 50px;
+        margin-right: -100px;
+    }
+    .banner-content {
+        .subtitle {
+            font-size: 17px;
+            color: $primary-color;
+            font-weight: 400;
+            display: inline-flex;
+            align-items: center;
+            border: 1px dashed $primary-color;
+            border-radius: 5px;
+            padding: 8px 10px;
+            margin-bottom: 20px;
+            img {
+                min-width: 28px;
+                margin-right: 10px;
+            }
+        }
+        h1 {
+            font-size: 80px;
+            margin-bottom: 25px;
+            span {
+                color: $primary-color;
+                text-decoration: underline;
+            }
+        }
+        p {
+            font-size: 20px;
+            font-weight: 700;
+            padding-right: 20%;
+            margin-bottom: 40px;
+        }
+        .banner-buttons {
+            .bordered-btn {
+                margin-left: 5px;
+            }
+        }
+    }
+}

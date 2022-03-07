@@ -1,0 +1,30 @@
+/* breadcrumb area style
+============================================================================================ */
+.breadcrumb-area {
+    background: url(../img/bg/breadcrumb-bg.png) center no-repeat;
+    background-size: cover;
+    padding: 180px 0 70px;
+    .page-title {
+        font-size: 80px;
+        margin-bottom: 0;
+    }
+    .breadcrumb-nav {
+        text-align: right;
+        span {
+            font-size: 20px;
+            &.current-page {
+                color: $primary-color;
+                font-weight: 700;
+            }
+            &.arrow {
+                margin: 0 10px;
+            }
+            a {
+                color: #fff;
+                &:hover {
+                    opacity: .8;
+                }
+            }
+        }
+    }
+}

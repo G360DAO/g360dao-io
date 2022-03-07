@@ -1,0 +1,523 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+@media (min-width: 1366px) {
+    .header-area .container, .banner-area .container {
+        max-width: 1320px;
+    }
+}
+@media (min-width: 1440px) {
+    .header-area .container, .banner-area .container {
+        max-width: 1400px;
+    }
+}
+@media (min-width: 1580px) {
+    .header-area .container, .banner-area .container {
+        max-width: 1520px;
+    }
+}
+@media (min-width: 1680px) {
+    .header-area .container, .banner-area .container {
+        max-width: 1720px;
+    }
+}
+
+/* max width  */
+@media (max-width: 1680px) {
+    .banner-area .banner-content h1 {
+        font-size: 62px;
+    }
+    .features-area .hand-mockup {
+        max-width: 230px;
+        top: 0;
+    }
+    .token-area .machine-mockup {
+        max-width: 220px;
+    }
+    .roadmap-area .roadmap-mockup {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .header-area .navbar-brand img {
+        max-width: 250px;
+    }
+    .banner-area .banner-thumb {
+        margin-right: 0;
+    }
+    .about-area .about-thumb {
+        margin-left: 0;
+    }
+    .token-area .machine-mockup {
+        max-width: 160px;
+    }
+    .roadmap-area .roadmap-mockup {
+        max-width: 200px;
+    }
+    .community-support.sensors-provide .sensors-round {
+        display: none;
+    }
+}
+
+@media (max-width: 1366px) {
+    .banner-area .banner-content h1 {
+        font-size: 52px;
+    }
+    .header-area .navbar .navbar-nav .nav-item a {
+        font-size: 16px;
+        line-height: 80px;
+    }
+    .header-area .navbar .navbar-nav .nav-item {
+        margin-right: 30px;
+    }
+    .banner-area {
+        padding: 180px 0 100px;
+    }
+    .banner-area .banner-thumb {
+        padding-left: 0;
+    }
+    .about-area {
+        padding: 100px 0;
+    }
+    .features-area {
+        padding: 100px 0 70px;
+    }
+    .token-area {
+        padding: 100px 0;
+    }
+    .current-market-area {
+        padding: 80px 0 100px;
+    }  
+    .roadmap-area {
+        padding: 100px 0;
+    }  
+    .faq-area {
+        padding-bottom: 100px;
+    }
+    .footer-area .footer-top {
+        padding: 100px 0 80px;
+    }
+    .token-area .machine-mockup {
+        display: none;
+    }
+    .roadmap-area .roadmap-mockup {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1199px) {
+    .header-area {
+        background: #0B0B47;
+        padding: 15px 0;
+    }
+    .sticky-wrapper.is-sticky .header-area {
+        padding: 15px 0;
+    }
+    .header-area.active {
+        background: #0B0B47;
+    }
+    .header-area .navbar .navbar-collapse {
+        margin-top: 0;
+    }
+    .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-toggler span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #1AC4FF;
+        margin: auto;
+        margin-bottom: 4px;
+        transition: all 400ms linear;
+        cursor: pointer;
+    }
+    .header-area .navbar-brand img {
+        max-width: 200px;
+    }
+    .navbar-toggler span:last-child {
+        margin-bottom: 0;
+    }
+    .navbar-toggler[aria-expanded=false] span:nth-child(2) {
+        opacity: 1;
+    }
+    .navbar-toggler[aria-expanded=true] span:nth-child(2) {
+        opacity: 0;
+    }
+    .navbar-toggler[aria-expanded=true] span:first-child {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 7.5px;
+    }
+    .navbar-toggler[aria-expanded=true] span:last-child {
+        transform: rotate(45deg);
+        bottom: 6px;
+        position: relative;
+    }
+    .header-area .navbar .navbar-nav .nav-item {
+        margin-right: 0;
+        text-align: center;
+    }
+    .header-area .navbar .navbar-nav .nav-item a {
+        border-bottom: 1px solid #dddddd3b;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    .navbar-nav {
+        padding-top: 15px;
+    }
+    .header-area .navbar .navbar-nav .nav-item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .header-area .navbar .header-btns li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .banner-area .banner-content p {
+        font-size: 16px;
+        padding-right: 0;
+    }
+    .banner-area .banner-content h1 {
+        font-size: 42px;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .section-title P {
+        font-size: 16px;
+    }
+    .single-features-item {
+        min-height: 260px;
+    }
+    .header-area .navbar .navbar-nav .nav-item a {
+        line-height: 30px;
+    }
+    .sticky-wrapper.is-sticky .header-area .navbar .navbar-nav .nav-item a {
+        line-height: 30px;
+    }
+    .header-btn.navbar-nav {
+        justify-content: center;
+        display: flex;
+    }
+    .header-btn.navbar-nav li {
+        text-align: center;
+    }
+    .token-area .token-content h2 {
+        font-size: 36px;
+    }
+    .token-area .token-content .participants h2 {
+        font-size: 36px;
+    }
+    .features-area .hand-mockup {
+        display: none;
+    }
+    .breadcrumb-area .page-title {
+        font-size: 42px;
+    }
+    .breadcrumb-area {
+        padding: 130px 0 70px;
+    }
+    .guide-cover-area .guide-cover-content h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .how-works-area .round-light {
+        display: none;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .banner-content {
+        margin-top: 50px;
+    }
+    .about-thumb {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .single-features-item {
+        min-height: auto;
+    }
+    .token-area .token-content {
+        padding-right: 0;
+        text-align: center;
+    }
+    .table-responsive .table th, .table-responsive .table td {
+        min-width: 230px;
+    }
+    .current-market-area .current-market-title-wrap .search-form {
+        text-align: left;
+    }
+    .current-market-area .current-market-title-wrap .section-title {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .roadmap-inner:before {
+        display: none;
+    }
+    .roadmap-inner .single-roadmap-item {
+        margin-bottom: 30px;
+    }
+    .faq-thumb {
+        margin-bottom: 30px;
+    }
+    .footer-area .footer-widget.footer-about {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    .footer-area .footer-bottom .copyright {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-area .footer-bottom .footer-bottom-menu {
+        justify-content: center;
+    }
+    .about-area {
+        padding: 80px 0;
+    }
+    .features-area {
+        padding: 80px 0 50px;
+    }
+    .tranding-slider {
+        padding: 50px;
+    }
+    .banner-area {
+        padding: 140px 0 80px;
+    }
+    .token-area .token-content {
+        margin-bottom: 50px;
+    }
+    .section-title {
+        text-align: left;
+    }
+    .about-area .section-title {
+        margin-bottom: 50px;
+    }
+    .about-thumb {
+        text-align: left;
+    }
+    .token-area {
+        padding: 80px 0;
+    }
+    .token-area .token-content {
+        text-align: left;
+    }
+    .footer-area .footer-bottom .copyright {
+        text-align: left;
+    }
+    .footer-area .footer-bottom .footer-bottom-menu {
+        justify-content: flex-start;
+    }
+    .current-market-area {
+        padding: 80px 0;
+    }
+    .roadmap-area {
+        padding: 80px 0;
+    }
+    .faq-area {
+        padding-bottom: 80px;
+    }
+    .footer-area .footer-top {
+        padding: 80px 0;
+    }
+    .accordion-wrap .accordion-item .accordion-body {
+        padding-right: 10%;
+    }
+    .about-area .about-thumb {
+        margin-right: 0;
+    }
+    .breadcrumb-area .breadcrumb-nav {
+        text-align: left;
+    }
+    .breadcrumb-area .page-title {
+        margin-bottom: 15px;
+    }
+    .community-support {
+        padding: 80px 0 50px;
+    }
+    .community-support .single-community-support {
+        margin-bottom: 30px;
+    }
+    .guide-cover-area {
+        padding: 80px 0;
+    }
+    .guide-cover-thumb {
+        margin-bottom: 50px;
+    }
+    .dao-area .single-dao-item {
+        margin-bottom: 30px;
+    }
+    .dao-area .section-title {
+        text-align: center;
+    }
+    .dao-area {
+        padding: 80px 0 50px;
+    }
+    .guide-cover-area.get-nfts {
+        padding: 80px 0;
+    }
+    .join-community-area {
+        padding: 80px 0 0;
+    }
+    .cta-area {
+        padding: 80px 0;
+    }
+    .cta-area .section-title h2 {
+        margin-bottom: 20px;
+    }
+    .cta-area .section-title p {
+        margin-bottom: 30px;
+    }
+    .join-community-area .section-title p {
+        margin-bottom: 30px;
+    }
+    .cta-area .section-title {
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .projects-supported-area .projects-supported-inner {
+        padding: 80px 0;
+    }
+    .projects-supported-area .section-title {
+        margin-bottom: 50px;
+    }
+    .how-works-area {
+        padding: 80px 0;
+    }
+    .light-house-area {
+        padding-bottom: 80px;
+    }
+    .scanner-area .section-title {
+        text-align: center;
+    }
+    .scanner-area .single-scanner-item {
+        margin-bottom: 50px;
+    }
+    .scanner-area {
+        padding: 80px 0 30px;
+    }
+    .single-service-item {
+        margin-bottom: 50px;
+    }
+    .service-area {
+        padding: 80px 0 30px;
+    }
+    .community-support.sensors-provide {
+        padding: 80px 0 50px;
+    }
+    .scanner-work {
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    br {
+        display: none;
+    }
+    .accordion-wrap .accordion-item .accordion-button {
+        font-size: 18px;
+    }
+    .footer-area .footer-widget .footer-menu li a {
+        font-size: 16px;
+    }
+    .accordion-wrap .accordion-item .accordion-button {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .token-area .timer-wrap .clock-wrap .single-count span {
+        width: 70px;
+        height: 70px;
+        border: 3px solid #1AC4FF;
+        font-size: 24px;
+    }
+    .token-area .progress-bar-wrap .token-price-wrap .total-token h3 {
+        font-size: 36px;
+    }
+    .footer-widget {
+        margin-bottom: 50px;
+    }
+    .footer-area .footer-top {
+        padding: 80px 0 30px;
+    }
+    .about-area .about-content .about-buttons {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .single-features-item .single-features-inner {
+        padding: 20px;
+    }
+    .tranding-slider {
+        padding: 32px;
+    }
+    .faq-area .nav-pills li {
+        margin: 5px 4px;
+    }
+    .single-features-item .single-features-inner .features-icon {
+        width: 50px;
+        min-width: 50px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .banner-area .banner-content h1 {
+        font-size: 36px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .single-features-item .single-features-inner .features-content h4 {
+        font-size: 22px;
+    }
+    .token-area .timer-wrap .clock-wrap .single-count span {
+        width: 55px;
+        height: 55px;
+        border: 2px solid #1AC4FF;
+        font-size: 18px;
+    }
+    .token-area .timer-wrap .clock-wrap .single-count:not(:last-child) {
+        margin-right: 20px;
+    }
+    .token-area .timer-wrap .clock-wrap .single-count .smalltext {
+        font-size: 16px;
+    }
+    .token-area .progress-bar-wrap .token-price-wrap .total-token h3 {
+        font-size: 28px;
+    }
+    .token-area .progress-bar-wrap .token-price-wrap .token-price h3 {
+        font-size: 20px;
+    }
+    .accordion-wrap .accordion-item .accordion-body {
+        padding-right: 0;
+    }
+    .primary-btn {
+        font-size: 16px;
+    }
+    .accordion-content h3 {
+        font-size: 30px;
+    }
+    .guide-cover-area .guide-cover-content h2 {
+        font-size: 30px;
+    }
+}

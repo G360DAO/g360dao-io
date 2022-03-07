@@ -1,0 +1,66 @@
+/* lighthouse area style
+============================================================================================ */
+.light-house-area {
+    text-align: center;
+    padding-bottom: 120px;
+    .section-title {
+        margin-bottom: 0;
+    }
+}
+
+/* scanner area style
+============================================================================================ */
+.scanner-area {
+    background: url(../img/bg/roadmap-bg.png) center no-repeat;
+    background-size: cover;
+    padding: 120px 0 20px;
+    .single-scanner-item {
+        text-align: center;
+        margin-bottom: 100px;
+        .scanner-step {
+            margin-bottom: 30px;
+        }
+        .scanner-content {
+            h5 {
+                font-size: 20px;
+            }
+            .inline-btn {
+                font-size: 15px;
+                font-weight: 700;
+                color: $primary-color;
+                img {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+/* service area style
+============================================================================================ */
+.service-area {
+    background: url(../img/bg/service-bg2.png) center no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    .single-service-item {
+        img {
+            margin-bottom: 25px;
+        }
+        h4 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* scanner area style
+============================================================================================ */
+.scanner-work {
+    background: url(../img/bg/roadmap-bg.png) center no-repeat;
+    background-size: cover;
+    padding: 140px 0;
+}

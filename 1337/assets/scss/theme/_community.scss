@@ -1,0 +1,279 @@
+/* community support area style
+============================================================================================ */
+.community-support {
+    padding: 110px 0;
+    &.sensors-provide {
+        padding: 120px 0 90px;
+        position: relative;
+        z-index: 1;
+        .section-title {
+            text-align: left;
+        }
+        .single-community-support {
+            position: relative;
+            margin-bottom: 30px;
+            .community-content {
+                padding-top: 80px;
+                min-height: 235px;
+                .community-support-icon {
+                    position: absolute;
+                    right: 20px;
+                    top: 20px;
+                    margin-bottom: 0!important;
+                }
+            }
+
+        }
+        .sensors-round {
+            position: absolute;
+            right: 0;
+            bottom: -16%;
+        }
+    }
+    .single-community-support {
+        background: #ffffff1a;
+        border-radius: 10px;
+        .community-content {
+            padding: 20px;
+            border-bottom: 1px solid #eaeaea1a;
+            .community-support-icon {
+                margin-bottom: 30px;
+            }
+            h4 {
+                font-size: 20px;
+                line-height: 1.4;
+            }
+        }
+        .inline-btn-wrap {
+            padding: 20px;
+            .inline-btn {
+                font-size: 15px;
+                font-weight: 700;
+                text-transform: capitalize;
+                color: $primary-color;
+                img {
+                    margin-left: 5px;
+                    @include transition();
+                }
+                &:hover {
+                    img {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* guide cover area style
+============================================================================================ */
+.guide-cover-area {
+    background: url(../img/bg/guide-bg.png) center no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    &.get-nfts {
+        background: transparent;
+        padding: 120px 0 170px;
+        .guide-cover-content {
+            h5 {
+                color: $primary-color;
+                font-size: 20px;
+            }
+            a {
+                color: #0388E5;
+                font-size: 20px;
+            }
+        }
+    }
+    &.light-house {
+        padding-top: 0;
+        .guide-cover-content {
+            p {
+                font-size: 20px;
+            }
+        }
+        .voordelen {
+            margin-top: 50px;
+            h3 {
+                font-size: 35px;
+            }
+            h4 {
+                font-size: 25px;
+                color: $primary-color;
+            }
+            .vooedelen-list {
+                margin-top: 30px;
+                position: relative;
+                z-index: 1;
+                &:before {
+                    position: absolute;
+                    left: 5px;
+                    top: 5%;
+                    height: 90%;
+                    width: 1px;
+                    border-left: 1px solid $primary-color;
+                    content: "";
+                }
+                li {
+                    font-size: 20px;
+                    font-weight: 400;
+                    position: relative;
+                    z-index: 1;
+                    padding-left: 25px;
+                    &:not(:last-child) {
+                        margin-bottom: 10px;
+                    }
+                    &:before {
+                        position: absolute;
+                        left: 0;
+                        top: 11px;
+                        height: 12px;
+                        width: 12px;
+                        border-radius: 50%;
+                        content: "";
+                        background: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+    .guide-cover-content {
+        h2 {
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+        .guide-cover-list {
+            position: relative;
+            z-index: 1;
+            &:before {
+                position: absolute;
+                left: 5px;
+                top: 5%;
+                height: 90%;
+                width: 1px;
+                border-left: 1px dashed $primary-color;
+                content: "";
+            }
+            li {
+                font-size: 20px;
+                font-weight: 700;
+                position: relative;
+                z-index: 1;
+                padding-left: 35px;
+                &:not(:last-child) {
+                    margin-bottom: 30px;
+                }
+                &:before {
+                    position: absolute;
+                    left: 0;
+                    top: 11px;
+                    height: 12px;
+                    width: 12px;
+                    border-radius: 50%;
+                    content: "";
+                    background: $primary-color;
+                }
+            }
+        }
+    }
+}
+
+/* dao area style
+============================================================================================ */
+.dao-area {
+    background: url(../img/bg/roadmap-bg.png) center no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    .single-dao-item {
+        text-align: center;
+        img {
+            margin-bottom: 25px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 0;
+            color: #ffffff80;
+        }
+    }
+
+}
+
+/* join community area style
+============================================================================================ */
+.join-community-area {
+    background: url(../img/bg/roadmap-bg.png) center no-repeat;
+    background-size: cover;
+    padding: 120px 0 0;
+    .section-title {
+        p {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+/* cta area style
+============================================================================================ */
+.cta-area {
+    padding: 150px 0;
+    .section-title {
+        text-align: left;
+        h2 {
+            margin-bottom: 30px;
+        }
+        p {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+/* projects supported area style
+============================================================================================ */
+.projects-supported-area {
+    .projects-supported-inner {
+        padding: 150px 0;
+        border-top: 1px solid #fff3;
+        border-bottom: 1px solid #fff3;
+    }
+    .section-title {
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .project-brands {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        img {
+            width: 100%;
+        }
+    } 
+}
+
+/* how-works area style
+============================================================================================ */
+.how-works-area {
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+    .round-light {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: 280px;
+        z-index: -1;
+    }
+    .section-title {
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .works-content {
+        p {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,101 @@
+/* Footer area css
+============================================================================================ */
+.footer-area {
+    background: url(../img/bg/footer-bg.png) center no-repeat;
+    background-size: cover;
+
+    .footer-top {
+        padding: 120px 0 80px;
+    }
+
+    .footer-widget {
+        &.footer-about {
+            margin-top: 50px;
+        }
+        .footer-logo {
+            display: inline-block;
+            margin-bottom: 20px;
+            img {
+                max-width: 250px;
+            }
+        }
+        .contact-info {
+            margin-bottom: 20px;
+            li {
+                a {
+                    color: $white;
+                    font-size: 16px;
+                }
+            }
+        }
+        .footer-social {
+            display: flex;
+            align-items: center;
+            li {
+                &:not(:last-child) {
+                    margin-right: 15px;
+                }
+                a {
+                    color: $white;
+                    font-size: 18px;
+                    display: flex;
+                    align-items: center;
+                    &:hover {
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+        .footer-title {
+            font-size: 22px;
+            color: $primary-color;
+            margin-bottom: 30px;
+        }
+        .footer-menu {
+            li {
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+                a {
+                    font-size: 18px;
+                    color: $white;
+                    &:hover {
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-mid {
+        padding: 50px 0;
+        border-top: 1px dashed $white;
+        border-bottom: 1px dashed $white;
+        p {
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+    }
+
+    .footer-bottom {
+        padding: 50px 0;
+        .copyright {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        .footer-bottom-menu {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            li {
+                &:not(:last-child) {
+                    margin-right: 30px;
+                }
+                a {
+                    font-size: 18px;
+                    color: #C6C6C6;
+                }
+            }
+        }
+    }
+}

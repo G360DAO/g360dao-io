@@ -619,6 +619,21 @@ img {
   font-size: 36px;
   margin-bottom: 20px; }
 
+/* Subscribe area style
+============================================================================================ */
+._field-wrapper{
+  max-width:450px;
+  width:95%;
+  margin: 0 auto;
+  margin-bottom:8px;
+}
+._field-wrapper input{
+  width:100%;
+  border:none;
+  padding:4px 8px;
+  border-radius: 4px;
+}
+
 /* Footer area css
 ============================================================================================ */
 .footer-area {
@@ -969,3 +984,5 @@ img {
   padding: 140px 0; }
 
 /*# sourceMappingURL=main.css.map */
+
+

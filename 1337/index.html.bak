@@ -501,10 +501,64 @@ Reddit: 				https://www.reddit.com/r/Guardian360DAO Twitter: 				https://twitter
         </div>
       </div>
       <img class="faq-graph" src="assets/img/graph.png" alt=""> </section>
-    <!-- end faq area  --> <a name="contact"></a>
+    <!-- end faq area  -->
     <!-- start footer area  -->
-    <div class="footer-area ">
-      <div class="container">
+    <section class="footer-area">
+     <a name="contact"></a>
+    <div class="container footer-top">
+        <div class="row wow fadeIn delay-4">
+          <!--BEGIN SUBSCRIBE-->
+          <div style="text-align: center;">
+            <form method="POST" action="https://guardian360.activehosted.com/proc.php" id="_form_81_" class="_form _form_81 _inline-form _inline-style _dark" novalidate>
+              <input type="hidden" name="u" value="81" />
+              <input type="hidden" name="f" value="81" />
+              <input type="hidden" name="s" />
+              <input type="hidden" name="c" value="0" />
+              <input type="hidden" name="m" value="0" />
+              <input type="hidden" name="act" value="sub" />
+              <input type="hidden" name="v" value="2" />
+              <input type="hidden" name="or" value="5abef37b158cbcf4849e16c43a0b79f5" />
+              <div class="_form-content">
+                <div class="_form_element _x65341844 _inline-style _clear" >
+                  <h1 class="_form-title mt-8">
+                    Subscribe for Email Updates
+                  </h1>
+                </div>
+                <div class="_form_element _x40642270 _inline-style _clear" >
+                  <div class="_html-code">
+                    <p>
+                      Want to stay up to date on developments within Guardian360 DAO?<br>
+                      Then sign up for the newsletter!
+                    </p>
+                  </div>
+                </div>
+                <div class="_form_element _x70455664 _inline-style " >
+
+                  <div class="_field-wrapper">
+                    <input type="text" id="fullname" name="fullname" placeholder="Type your name" />
+                  </div>
+                  <!--  This STARTS the Account Custom Fields section  -->
+                  </div>
+                  <div class="_form_element _x80028427 _inline-style " >
+                    <div class="_field-wrapper">
+                      <input type="text" id="email" name="email" placeholder="Type your email *" required/>
+                    </div>
+                    <!--  This STARTS the Account Custom Fields section  -->
+                    </div>
+                    <div class="_button-wrapper _inline-style">
+                      <button id="_form_81_submit" class="_submit primary-btn" type="submit">
+                        Submit
+                      </button>
+                    </div>
+                    <div class="_clear-element">
+                    </div>
+                  </div>
+                  <div class="_form-thank-you" style="display:none;">
+                  </div>
+                </form>
+              </div>
+              <!--END SUBSCRIBE-->
+        </div>
         <div class="row footer-top">
           <!-- single footer widget  -->
           <div class="col-lg-4 wow fadeIn">
@@ -534,7 +588,7 @@ Reddit: 				https://www.reddit.com/r/Guardian360DAO Twitter: 				https://twitter
                   <!--<br><br>--> 
                 </li>
                 <li> <a href="https://t.me/guardian360dao" target="_blank"> </a>
-                  <img src="assets/img/github.png"
+                  <img src="assets/img/telegram.png"
                       alt=""
                       height="25"
                       width="25">
@@ -629,7 +683,7 @@ Reddit: 				https://www.reddit.com/r/Guardian360DAO Twitter: 				https://twitter
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- end footer area  -->
     <!-- All js here -->
     <script src="assets/js/htmlinclude.js"></script>
@@ -638,6 +692,7 @@ Reddit: 				https://www.reddit.com/r/Guardian360DAO Twitter: 				https://twitter
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/subscribe.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async="" defer="defer"></script>
     <!-- custom js -->
     <script src="assets/js/main.js"></script>

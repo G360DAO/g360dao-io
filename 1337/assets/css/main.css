@@ -1018,3 +1018,8 @@ img {
   content: "";
   background: #1AC4FF;
 }
+@media all and (max-width:1024px){
+  .container{
+    width: calc(100% - 1.5rem);
+  }
+}

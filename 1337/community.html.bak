@@ -92,9 +92,7 @@
                   alt="">
                 <h4>Discord</h4>
               </div>
-              <div class="inline-btn-wrap"> <a href="https://discord.gg/scXkD45Ghw"
-                  target="_blank"
-                  class="inline-btn">Join
+              <div class="inline-btn-wrap"> <a href="https://discord.gg/scXkD45Ghw" target="_blank" class="inline-btn">Join
                   Now <img src="assets/img/arrow.svg" alt=""></a> </div>
             </div>
           </div>
@@ -105,41 +103,26 @@
                   alt="">
                 <h4>Github Repositories</h4>
               </div>
-              <div class="inline-btn-wrap"> <a href="https://github.com/guardian360dao"
-                  target="_blank"
-                  class="inline-btn">Fork
+              <div class="inline-btn-wrap"> <a href="https://github.com/guardian360dao" target="_blank" class="inline-btn">Fork
                   Now <img src="assets/img/arrow.svg" alt=""></a> </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="single-community-support wow fadeIn delay-3">
               <div class="community-content"> <img class="community-support-icon"
-                  src="assets/img/reddit.png"
-                  alt=""
-                  width="50px"
-                  height="50px">
+                  src="assets/img/reddit.png" width="50px" height="50px" alt="">
                 <h4>Reddit</h4>
               </div>
-              <div class="inline-btn-wrap"> <a href="https://www.reddit.com/r/Guardian360DAO"
-                  class="inline-btn">Respond<img
-                    src="assets/img/arrow.svg"
-                    alt=""></a>
-              </div>
+              <div class="inline-btn-wrap"> <a href="https://www.reddit.com/r/Guardian360DAO" class="inline-btn">Respond<img src="assets/img/arrow.svg" alt=""></a> </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="single-community-support wow fadeIn delay-4">
               <div class="community-content"> <img class="community-support-icon"
-                  src="assets/img/m-icon.svg"
-                  alt=""
-                  width="60px"
-                  height="60px">
+                  src="assets/img/m-icon.svg" width="60px" height="60px" alt="">
                 <h4>Medium</h4>
               </div>
-              <div class="inline-btn-wrap"> <a href="https://medium.com/guardian360dao"
-                  target="_blank"
-                  class="inline-btn">Read
-                  the blogs <img src="assets/img/arrow.svg" alt=""></a> </div>
+              <div class="inline-btn-wrap"> <a href="https://medium.com/guardian360dao" target="_blank" class="inline-btn">Read the blogs <img src="assets/img/arrow.svg" alt=""></a> </div>
             </div>
           </div>
         </div>
@@ -157,12 +140,14 @@
           </div>
           <div class="col-lg-6">
             <div class="guide-cover-content wow fadeIn delay-2">
-              <h2>Step by step onboarding guide</h2>
+              <h2>What this <br>
+                guide covers?</h2>
               <ul class="guide-cover-list">
-                <li>Read the <a href="#">whitepaper</a></li>
-                <li>Check if you agree with the <a href="#">code of conduct</a></li>
-                <li>Join the Guardian360 DAO community on <a href="https://discord.gg/Gt8P9AdQTM" target="_blank">Dicord</a></li>
-                <li>Up or downvote <a href="https://github.com/guardian360dao" target="_blank">Information Security Insights</a> on Github, or simply add new ones to the longlist</li>
+                <li>How to Join the Bankless DAO</li>
+                <li>Accessing Bankless Discord</li>
+                <li>Adding your skills and getting involved</li>
+                <li>Voting on Proposals</li>
+                <li>Proposing new initiatives</li>
               </ul>
             </div>
           </div>

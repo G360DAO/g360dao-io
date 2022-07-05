@@ -35,14 +35,12 @@
         <div class="container"> <a class="navbar-brand " href="index.html#"><img
               src="assets/img/logo.png"
               alt="Guardian360 DAO"></a>
-              <!-- Mobile Menu -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          <!-- Mobile Menu --> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#main_nav"
             aria-expanded="false"
             aria-label="Toggle navigation">
-             <span class="icon-bar"></span>             
-             <span class="icon-bar"></span>             
-             <span class="icon-bar"></span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span>
           </button>
           <!-- End Mobile Menu -->
           <div class="collapse navbar-collapse" id="main_nav">
@@ -257,7 +255,8 @@
                   <li>Payout revenue share to NFT and other token holders</li>
                   <li>Vote on security insights to be developed</li>
                   <li>Assign security insights to developers</li>
-                  <li>Start implementing Information Security Management System to support our ISO27001 certification</li>
+                  <li>Start implementing Information Security Management System
+                    to support our ISO27001 certification</li>
                 </ul>
                 <p></p>
               </div>
@@ -292,7 +291,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title wow fadeIn">
-              <h2>Frequently asked Question</h2>
+              <h2>Frequently asked Questions</h2>
               <p>You have questions, we have the answers</p>
             </div>
           </div>
@@ -407,7 +406,8 @@
                                 from security best practices, norms and
                                 regulations support organizations to become more
                                 secure. Detection of attackers quickly lowers
-                                the impact of an incident, therefore you need insights in malicious behavior.</p>
+                                the impact of an incident, therefore you need
+                                insights in malicious behavior.</p>
                             </div>
                           </div>
                         </div>
@@ -649,7 +649,6 @@
             <div class="footer-widget footer-about"> <a href="#" class="footer-logo">
                 <img class="img-fluid" src="assets/img/logo.png" alt=""></a>
               <ul class="contact-info">
-                <!--<li><a href="tel:+88123456789">+88 123 456 789</a></li>-->
                 <li> <a href="mailto:guardian360dao@protonmail.com">guardian360dao@protonmail.com</a>
                 </li>
               </ul>
@@ -657,27 +656,26 @@
                 <li> <a href="https://medium.com/guardian360dao" target="_blank">
                     <img src="assets/img/m-icon.svg" alt=""> </a> </li>
                 <li> <a href="https://twitter.com/Guardian360DAO" target="_blank">
-                    <img src="assets/img/twitter.png" alt="" height="25" width="25">
+                    <img src="assets/img/twitter.png" alt="" width="25" height="25">
                   </a>
-                  <!--<br> <br>--> </li>
+                  </li>
                 <li> <a href="https://discord.gg/Gt8P9AdQTM" target="_blank"> <img
                       src="assets/img/discord.png"
                       alt=""
-                      height="25"
-                      width="25"></a>
-                  <!--<br><br>--> </li>
+                      width="25"
+                      height="25"></a>
+                  </li>
                 <li> <a href="https://t.me/guardian360dao" target="_blank"> </a>
-                  <img src="assets/img/telegram.png" alt="" height="25" width="25">
+                  <img src="assets/img/telegram.png" alt="" width="25" height="25">
                   <!--<br><br>--> </li>
                 <li> <a href="https://github.com/guardian360dao" target="_blank">
-                    <img src="assets/img/github.png" alt="" height="25" width="25"></a>
+                    <img src="assets/img/github.png" alt="" width="25" height="25"></a>
                   <!--<br> <br>--> </li>
-                <!--<li><a href="https://www.reddit.com/r/Guardian360DAO" target="_blank"><img src="assets/img/hends-heart.svg" alt=""></a></li>-->
                 <li><a href="https://www.reddit.com/r/Guardian360DAO" target="_blank"><img
                       src="assets/img/reddit.png"
                       alt=""
-                      height="25"
-                      width="25"></a></li>
+                      width="25"
+                      height="25"></a></li>
               </ul>
             </div>
           </div>

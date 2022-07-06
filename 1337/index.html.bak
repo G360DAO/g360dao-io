@@ -112,20 +112,17 @@
           <div class="col-lg-5">
             <div class="about-content wow fadeIn delay-2">
               <!-- single about service item -->
-              <!--
-              <div class="single-about-service-item">                <div class="about-service-content">                  <h4>Decentralised autonomous organisation</h4>                  <p>Guardian360 DAO is open to anyone who wants to contribute                    to rebelliously increasing justice on the digital                    infrastructure. No central oversight. No single point of                    failure.</p>                </div>              </div>							-->
-              <!-- single about service item -->
               <div class="single-about-service-item">
                 <div class="about-service-content">
                   <h4>Rebellious</h4>
-                  <p>Instead of propagating fear, uncertainty and doubt we're
-                    convinced that security problems are solvable. We simply
-                    need to work together and not be focused on shareholder
-                    value and competition. We attempt to challenge the so-called
-                    ‘magic quadrant market leaders’ instead by empowering
-                    hackers, developers and other contributors to work together
-                    on real information security solutions, available for free
-                    to all!</p>
+                  <p>Instead of propagating fear, uncertainty and
+                    doubt we're convinced that security problems are solvable.
+                    We simply need to work together and not be focused on
+                    shareholder value and competition. We attempt to challenge
+                    the so-called ‘magic quadrant market leaders’ instead by
+                    empowering hackers, developers and other contributors to
+                    work together on real information security solutions,
+                    available for free to all!</p>
                 </div>
               </div>
               <!-- single about service item -->
@@ -657,14 +654,13 @@
                     <img src="assets/img/m-icon.svg" alt=""> </a> </li>
                 <li> <a href="https://twitter.com/Guardian360DAO" target="_blank">
                     <img src="assets/img/twitter.png" alt="" width="25" height="25">
-                  </a>
-                  </li>
+                  </a> </li>
                 <li> <a href="https://discord.gg/Gt8P9AdQTM" target="_blank"> <img
                       src="assets/img/discord.png"
                       alt=""
                       width="25"
                       height="25"></a>
-                  </li>
+                </li>
                 <li> <a href="https://t.me/guardian360dao" target="_blank"> </a>
                   <img src="assets/img/telegram.png" alt="" width="25" height="25">
                   <!--<br><br>--> </li>

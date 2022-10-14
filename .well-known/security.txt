@@ -1,0 +1,6 @@
+Contact: mailto:G360DAO@Proton.me
+Expires: 2024-10-13T22:00:00.000Z
+Preferred-Languages: en, nl
+Canonical: https://g360dao.io/#/.well-known/security.txt
+Policy: https://code-of-conduct.g360dao.io/cvd
+Hiring: https://g360dao.io/#/join-the-revolution/a-special-invitation
